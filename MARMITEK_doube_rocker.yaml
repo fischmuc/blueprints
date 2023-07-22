@@ -1,6 +1,6 @@
 blueprint:
   name: ZHA - MARMITEK Wireless Remote Switch (Double Rocker)
-  description: Automate your MOES Wireless Remote Switch (Double Rocker) using ZHA events.
+  description: Automate your MARMITEK Wireless Remote Switch (Double Rocker) using ZHA events.
   domain: automation
   source_url: https://github.com/gmlupatelli/blueprints_repo/blob/master/moes_controler/moes_double_rocker.yaml
   
@@ -12,7 +12,7 @@ blueprint:
       selector:
         device:
           integration: zha
-          manufacturer: _TZ3000_wkai4ga5
+          manufacturer: _TZ3000_dfgbtub0
           entity:
             domain: sensor
             device_class: battery
