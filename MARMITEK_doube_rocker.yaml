@@ -8,7 +8,7 @@ blueprint:
   input:
     remote_switch:
       name: Select the MARMITEK Wireless Remote Switch (Double Rocker)
-      description: Marmitek Wireless Remote Switch (Double Rocker)
+      description: MARMITEK Wireless Remote Switch (Double Rocker)
       selector:
         device:
           integration: zha
